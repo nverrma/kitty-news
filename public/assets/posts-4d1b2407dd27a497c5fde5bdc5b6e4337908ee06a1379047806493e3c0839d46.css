@@ -1,0 +1,59 @@
+/* line 1, app/assets/stylesheets/posts.scss */
+.post {
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 20px;
+}
+
+/* line 5, app/assets/stylesheets/posts.scss */
+.post h2 {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+/* line 10, app/assets/stylesheets/posts.scss */
+.post .url {
+  margin-bottom: 10px;
+}
+
+/* line 13, app/assets/stylesheets/posts.scss */
+.post .url a {
+  color: #999999;
+}
+
+/* line 18, app/assets/stylesheets/posts.scss */
+.post .tagline {
+  margin-bottom: 10px;
+}
+
+/* line 22, app/assets/stylesheets/posts.scss */
+.post footer {
+  color: #999999;
+}
+
+/* line 26, app/assets/stylesheets/posts.scss */
+.post + .post {
+  margin-top: 20px;
+}
+
+/* line 30, app/assets/stylesheets/posts.scss */
+.post:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* line 35, app/assets/stylesheets/posts.scss */
+.post button {
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 2px 10px;
+  background: white;
+  border: 1px solid #e8e8e8;
+  margin-right: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+/* line 45, app/assets/stylesheets/posts.scss */
+.post button:hover {
+  background: #e8e8e8;
+}
